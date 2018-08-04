@@ -6,6 +6,7 @@ $mainpost_info_text: #8d8d8d;
 body{
     background-color: $back_color;
     color: black;
+    font-family: 'Times New Roman', Times, serif;
 }
 .wrap{
     max-width: 841px;
@@ -96,13 +97,13 @@ nav{
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 23px 0px;
-    .details-title{
-        font-size: 18px;
-        font-family: Tahoma, sans-serif;
-        font-weight: bold;
-        padding: 0px 0px 10px 0px;
-    }
+    padding: 23px 0px 0px 0px;
+}
+.details-title{
+    font-size: 18px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 0px 0px 10px 0px;
 }
 .details-icons{
     display: flex;
@@ -121,4 +122,7 @@ nav{
             font-size: 14px;
         }
     }
+}
+footer{
+    height: 145px;
 }
