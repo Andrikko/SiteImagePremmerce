@@ -65,11 +65,6 @@ nav{
             font-size: 21px;
             line-height: 27px;
         }
-        .mainpost-info_text{
-            color: $mainpost_info_text;
-            font-size: 14px;
-            line-height: 19px;
-        }
         button{
             padding: 6px 21px;
             background: rgba(224,108,92,1);
@@ -88,6 +83,42 @@ nav{
         button:hover{
             cursor: pointer;
             opacity: 0.8;
+        }
+    }
+}
+.mainpost-info_text, .details-text{
+    color: $mainpost_info_text;
+    font-size: 14px;
+    line-height: 19px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 23px 0px;
+    .details-title{
+        font-size: 18px;
+        font-family: Tahoma, sans-serif;
+        font-weight: bold;
+        padding: 0px 0px 10px 0px;
+    }
+}
+.details-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin-left: 10px;
+    .icon{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 0px;
+        span{
+            padding: 0px 0px 0px 15px;
+            font-style: italic;
+            font-size: 14px;
         }
     }
 }
