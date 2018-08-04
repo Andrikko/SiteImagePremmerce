@@ -19,7 +19,7 @@ header{
     height: 80px;
 }
 nav{
-    width: 45%;
+    width: 47%;
     .nav-ul{
         display: flex;
         justify-content: space-between;
@@ -34,7 +34,7 @@ nav{
         color: black;
     }
     a:hover{
-        color: gray;
+        color:$mainpost_info_text;
     }
 }
 .mainpost{
@@ -61,9 +61,7 @@ nav{
         align-items: flex-start;
         justify-content: space-between;
         .mainpost-info_title{
-            font-family: Tahoma, sans-serif;
-            font-weight: bold;
-            font-size: 21px;
+            font: bold 21px Tahoma, sans-serif; 
             line-height: 27px;
         }
         button{
@@ -77,8 +75,7 @@ nav{
             background: linear-gradient(to bottom, rgba(224,108,92,1) 0%, rgba(237,111,92,1) 42%, rgba(246,41,12,1) 66%, rgba(240,47,23,1) 92%, rgba(231,56,39,1) 100%);
             filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e06c5c', endColorstr='#e73827', GradientType=0 );
             border: 0px;
-            font-family: Tahoma, sans-serif;
-            font-size: 13px;
+            font: 13px Tahoma, sans-serif;
             color: white;
         }
         button:hover{
@@ -100,9 +97,7 @@ nav{
     padding: 23px 0px 0px 0px;
 }
 .details-title{
-    font-size: 18px;
-    font-family: Tahoma, sans-serif;
-    font-weight: bold;
+    font: bold 18px Tahoma, sans-serif;
     padding: 0px 0px 10px 0px;
 }
 .details-icons{
@@ -120,9 +115,8 @@ nav{
             padding: 0px 0px 0px 15px;
             font-style: italic;
             font-size: 14px;
+            line-height: 17px;
         }
     }
 }
-footer{
-    height: 145px;
-}
+footer{height: 145px;}
